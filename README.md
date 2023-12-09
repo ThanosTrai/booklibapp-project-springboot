@@ -30,7 +30,28 @@ Before running the application, ensure you have the following:
 
 ### **Configure Application Properties**
 Create an application.properties file in the src/main/resources/ directory with the following content. Be sure to replace YOUR_GOOGLE_BOOKS_API_KEY and YOUR_JWT_SECRET_KEY with your actual keys:
-```
-google.books.apiKey=YOUR_GOOGLE_BOOKS_API_KEY
-jwt.secret-key=YOUR_JWT_SECRET_KEY
-```
+   ```
+   google.books.apiKey=YOUR_GOOGLE_BOOKS_API_KEY
+   jwt.secret-key=YOUR_JWT_SECRET_KEY
+   ```
+
+### **Build the Application**
+Use Gradle to build the application. Run the following command in the root directory of your project:
+   ```
+   ./gradlew build
+   ```
+If you are using a Windows system, use:
+   ```
+   gradlew.bat build
+   ```
+
+### **Run the Application**
+After successfully building the project, you can start it by running:
+   ```
+   ./gradlew bootRun
+   ```
+For Windows:
+   ```
+   gradlew.bat bootRun
+   ```
+The application will now be running and accessible at http://localhost:8080.
