@@ -26,11 +26,10 @@ Before running the application, ensure you have the following:
    ```sh
    git clone https://github.com/ThanosTrai/booklibapp-project-springboot.git
    cd booklibapp-project-springboot
+   ```
 
-   Create the Application Properties File:
-   
-   Create an application.properties file in the src/main/resources/ directory with the following content, replacing                  YOUR_GOOGLE_BOOKS_API_KEY and YOUR_JWT_SECRET_KEY with your actual keys:
-
-   google.books.apiKey=YOUR_GOOGLE_BOOKS_API_KEY <br>
-   jwt.secret-key=YOUR_JWT_SECRET_KEY
-
+Create an application.properties file in the src/main/resources/ directory with the following content. Be sure to replace YOUR_GOOGLE_BOOKS_API_KEY and YOUR_JWT_SECRET_KEY with your actual keys:
+```
+google.books.apiKey=YOUR_GOOGLE_BOOKS_API_KEY
+jwt.secret-key=YOUR_JWT_SECRET_KEY
+```
