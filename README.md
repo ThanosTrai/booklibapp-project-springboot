@@ -28,6 +28,7 @@ Before running the application, ensure you have the following:
    cd booklibapp-project-springboot
    ```
 
+### **Configure Application Properties**
 Create an application.properties file in the src/main/resources/ directory with the following content. Be sure to replace YOUR_GOOGLE_BOOKS_API_KEY and YOUR_JWT_SECRET_KEY with your actual keys:
 ```
 google.books.apiKey=YOUR_GOOGLE_BOOKS_API_KEY
