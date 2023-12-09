@@ -55,3 +55,6 @@ For Windows:
    gradlew.bat bootRun
    ```
 The application will now be running and accessible at http://localhost:8080.
+
+### **Explore the Application**
+With the server running, you can explore various functionalities such as user registration and login, book searches, managing favorites, and more, through the provided endpoints.
