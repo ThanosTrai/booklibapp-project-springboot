@@ -65,3 +65,21 @@ The application will now be running and accessible at http://localhost:8080.
 
 ### **Explore the Application**
 With the server running, you can explore various functionalities such as user registration and login, book searches, managing favorites, and more, through the provided endpoints.
+
+## Database Configuration
+
+This application was developed and tested with MySQL as its database. It includes the MySQL JDBC driver (`mysql-connector-java`) in its dependencies.
+
+To set up the application with a MySQL database:
+
+1. **Install MySQL**: Download and install MySQL from the [official MySQL website](https://www.mysql.com/).
+
+2. **Create a MySQL Database**: Create a new database in MySQL to be used by the application.
+
+3. **Configure `application.properties`**: In the `src/main/resources/` directory, create or update the `application.properties` file with your MySQL connection details:
+
+   ```properties
+   spring.datasource.url=jdbc:mysql://localhost:3306/your_database_name?serverTimezone=UTC
+   spring.datasource.username=your_username
+   spring.datasource.password=your_password
+   spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
