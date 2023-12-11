@@ -12,7 +12,7 @@ Be sure to also set up the front-end part of this application for full functiona
 ## Features
 
 - User registration and login using JWT (JSON Web Tokens).
-- Search for books by author, title, category, or ISBN.
+- Search for books by title, author, category, or ISBN.
 - Ability to view detailed book information.
 - Option to add or remove books from a personal favorites list.
 - Profile management where users can update personal details and add a profile picture url.
