@@ -1,4 +1,4 @@
-# Book Library Backend = Educational Project
+# Book Library Backend - Educational Project
 
 This repository contains the back-end code for the Book Library Application, a full-stack project built with Java Spring Boot. This project is built using Java Spring Boot and is intended primarily for educational purposes. It is designed to work in conjunction with the Angular front-end, which can be found in a separate repository. 
 
