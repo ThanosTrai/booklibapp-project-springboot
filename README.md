@@ -1,8 +1,8 @@
-# Book Library Application - Back End
+# Book Library Backend = Educational Project
 
-This repository contains the back-end code for the Book Library Application, a full-stack project built with Java Spring Boot. It is designed to work in conjunction with the Angular front-end, which can be found in a separate repository.
+This repository contains the back-end code for the Book Library Application, a full-stack project built with Java Spring Boot. This project is built using Java Spring Boot and is intended primarily for educational purposes. It is designed to work in conjunction with the Angular front-end, which can be found in a separate repository. 
 
-This application serves as a client for fetching book data from Google Books API and includes features for user management, book searching, and favoriting books. It's built using Java Spring Boot with JWT authentication for secure user registration and login. This is an educational project.
+This application serves as a client for fetching book data from Google Books API and includes features for user management, book searching, and favoriting books. It's built using Java Spring Boot with JWT authentication for secure user registration and login. 
 
 ## Related Repository
 
