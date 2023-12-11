@@ -83,3 +83,9 @@ To set up the application with a MySQL database:
    spring.datasource.username=your_username
    spring.datasource.password=your_password
    spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+   ```
+
+## Testing
+- The API endpoints have been thorougly tested using Postman.
+- For endpoints that require authentication, set the Authorization Type to Bearer Token in Postman.
+- After registering and logging in through the API, use the JWT token provided in the response as the Bearer Token for authenticated requests.
