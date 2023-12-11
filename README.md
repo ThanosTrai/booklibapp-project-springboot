@@ -6,7 +6,7 @@ This application serves as a client for fetching book data from Google Books API
 
 ## Related Repository
 
-**Front-end (Angular):** [Book Library Front-End Repository](https://github.com/your-username/front-end-repo-name)<br>
+**Front-end (Angular):** [Book Library Front-End Repository](https://github.com/ThanosTrai/booklibapp-project-angular)<br>
 Be sure to also set up the front-end part of this application for full functionality.
 
 ## Features
